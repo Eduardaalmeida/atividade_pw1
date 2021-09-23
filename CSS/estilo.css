@@ -1,0 +1,80 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+
+@font-face {
+    font-family: "Rampart_One", cursive;
+    src: url("../fonts/Rampart_One/RampartOne-Regular.ttf");
+   }
+body,html{
+    background: url(../img/1519910473_492871_1519910821_noticia_normal\ 1500.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titulo{
+    background-color: rgb(55, 89, 121);
+    padding: 10px;
+   }
+
+.logo{
+  width: 50%;
+  border-radius: 2px;
+ 
+}
+
+.container{
+  
+    height: 80vh;
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.elemento{
+    background: rgb(240, 173, 6);
+    color: rgb(223, 101, 7);
+    position: absolute;
+}
+
+.bloco {
+    background-color: #fff;
+    border-color: rgb(241, 31, 31) rgb(68, 36, 36) rgb(240, 146, 146)6 ;
+    border: 5px solid ;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.bloco img{
+ 
+    border: 15px solid rgb(252, 216, 17);
+    float: left;
+    margin: 15px 15px 0 0;
+    padding: 3px;
+    
+   }
+
+.bloco a{
+    color: #04ecec ;
+    font-weight:bolder ;
+    text-decoration: none;
+}
+
+.bloco a:hover{
+    color: #90d3f0;
+    text-decoration: underline;
+    background-color: rgb(129, 92, 92);
+    padding: 5px;
+}
+
+.bloco p{
+font-family: "Rampart_One", cursive;
+font-size: 16px;
+text-align: justify;
+line-height: 1.5;
+}
+
+   .clear{
+       clear: both;
+   }
